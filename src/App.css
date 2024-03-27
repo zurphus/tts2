@@ -120,6 +120,7 @@ p{
 }
 .buy__button:hover{
   padding: 5px 85px;
+  margin: 0;
 }
 
 @media screen and (max-width: 915px) {
