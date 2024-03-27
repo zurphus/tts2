@@ -184,3 +184,6 @@ p{
 
   background-color: rgb(11,11,11);
 }
+::selection{
+  background-color: #ce3a20;
+}
