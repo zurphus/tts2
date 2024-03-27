@@ -11,13 +11,12 @@ function App() {
 
   bouncy.register()
 
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   const [animation, setAnimation] = useState(false)
 
   useEffect(() => {
-    setLoading(true)
     setTimeout(() => {
-      setLoading(false)
+      setLoading(false) 
     }, 2000)
   }, [])
 
