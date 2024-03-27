@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false) 
-    }, 2000)
+    }, 3000)
   }, [])
 
   useEffect(() => {
@@ -35,7 +35,6 @@ function App() {
             speed="1.75" 
             color="white" 
           ></l-bouncy></div>
-          
         ) : <main>
         <div className="title__wrap">
           <h1 className={`${animation ? 'title-active' : ''} title`}>TO THE SUN V2</h1>
