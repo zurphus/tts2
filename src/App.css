@@ -59,8 +59,8 @@ canvas{
   justify-content: center;
   align-items: center;
 
-  width: 50%;
-  max-width: 250px;
+  
+  max-width: 350px;
   height: 60px;
 }
 .icon{
@@ -128,10 +128,15 @@ p{
   left: 0;
   right: 0;
 }
-
+@media screen and (max-width: 1002px) {
+  .title{
+    width: 900px;
+  }
+}
 @media screen and (max-width: 915px) {
   .title{
     font-size: 6rem;
+    width: 800px;
   }
   .title__wrap{
     transform: translate(-50%, -250%);
@@ -142,6 +147,9 @@ p{
   }
 }
 @media screen and (max-width: 810px) {
+  .title{
+    width: 680px;
+  }
   .welcome{
     width: 318px;
     font-size: 2rem;
@@ -158,6 +166,7 @@ p{
 @media screen and (max-width: 700px) {
   .title{
     font-size: 4rem;
+    width: 550px;
   }
   .title__wrap{
     transform: translate(-50%, -300%);
@@ -169,6 +178,7 @@ p{
 @media screen and (max-width: 550px) {
   .title{
     font-size: 3rem;
+    width: 425px;
   }
   .title__wrap{
     transform: translate(-50%, -350%);
@@ -177,6 +187,7 @@ p{
 @media screen and (max-width: 450px) {
   .title{
     font-size: 2.5rem;
+    width: 355px;
   }
   .title__wrap{
     transform: translate(-50%, -400%);
