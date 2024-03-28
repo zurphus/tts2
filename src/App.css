@@ -122,6 +122,12 @@ p{
   padding: 5px 85px;
   margin: 0;
 }
+.description__wrapper{
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  right: 0;
+}
 
 @media screen and (max-width: 915px) {
   .title{
@@ -155,6 +161,9 @@ p{
   }
   .title__wrap{
     transform: translate(-50%, -300%);
+  }
+  .description{
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 550px) {

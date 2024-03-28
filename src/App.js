@@ -56,9 +56,11 @@ function App() {
         </div>
         <a href='https://raydium.io/swap/?inputCurrency=sol&outputCurrency=7nXJVZonVx8kQeNdMJk9VCaqC1skSTajhrAxJt4SkLTT&fixed=in' target='blank' className='buy__button'>BUY</a>
         <Spline scene="https://prod.spline.design/oddaRVMOdOKywdEB/scene.splinecode" />
-        <p className='description'>JOIN OUR RESILIENT CRYPTO PROJECT BORN<br />FROM THE ASHES OF A RUG PULL SCAM</p>
-        <p className='description'>WE'RE DEDICATED TO RESTORING FAITH IN CRYPTO<br />INVESTMENTS AFTER THE BETRAYAL OF TTS 1.0</p>
-        <p className='description'>GET READY FOR A NEW ERA OF TRANSPARENCY AND<br />SECURITY AS WE LAUNCH OUR OWN COIN</p>
+        <div className="description__wrapper">
+          <p className='description'>JOIN OUR RESILIENT CRYPTO PROJECT BORN<br />FROM THE ASHES OF A RUG PULL SCAM</p>
+          <p className='description'>WE'RE DEDICATED TO RESTORING FAITH IN CRYPTO<br />INVESTMENTS AFTER THE BETRAYAL OF TTS 1.0</p>
+          <p className='description'>GET READY FOR A NEW ERA OF TRANSPARENCY AND<br />SECURITY AS WE LAUNCH OUR OWN COIN</p>
+        </div>
       </main>}
     </>
   )
