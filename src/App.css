@@ -205,6 +205,8 @@ p{
   align-items: center;
 
   background-color: rgb(11,11,11);
+
+  z-index: 9999;
 }
 ::selection{
   background-color: #ce3a20;

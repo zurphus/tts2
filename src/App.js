@@ -23,19 +23,20 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setAnimation(true)
-    }, 100)
+    }, 3200)
   }, [])
 
   return (
     <>
-        {loading ? (
+        {loading &&
           <div className='loading'>
           <l-bouncy
             size="45"
             speed="1.75" 
             color="white" 
           ></l-bouncy></div>
-        ) : <main>
+        }
+          <main>
         <div className="title__wrap">
           <h1 className={`${animation ? 'title-active' : ''} title`}>TO THE SUN V2</h1>
         </div>
@@ -61,7 +62,7 @@ function App() {
           <p className='description'>WE'RE DEDICATED TO RESTORING FAITH IN CRYPTO<br />INVESTMENTS AFTER THE BETRAYAL OF TTS 1.0</p>
           <p className='description'>GET READY FOR A NEW ERA OF TRANSPARENCY AND<br />SECURITY AS WE LAUNCH OUR OWN COIN</p>
         </div>
-      </main>}
+      </main>
     </>
   )
 }
